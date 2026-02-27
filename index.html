@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7X | SYSTEM</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Chakra+Petch:wght@400;700&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['"Chakra Petch"', 'sans-serif'],
+                        body: ['"Cairo"', 'sans-serif'],
+                        code: ['"JetBrains Mono"', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            primary: '#6A0DAD',   
+                            secondary: '#0072FF', 
+                            accent: '#00C6FF',    
+                            white: '#FFFFFF',
+                            dark: '#0f0518',
+                        }
+                    },
+                    backgroundImage: {
+                        'brand-gradient': 'linear-gradient(135deg, #6A0DAD 0%, #0072FF 100%)',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-dark min-h-screen flex justify-center items-center">
+
+
+
+
+    <div class="p-10 rounded-2xl border border-brand-accent/40 backdrop-blur-lg" >
+        <h1 class="text-brand-white font-body">7X SYSTEM INITIALIZED</h1>
+
+    </div>
+</body>
+</html>
